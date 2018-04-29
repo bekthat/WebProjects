@@ -1,0 +1,303 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration:none;
+}
+#container{
+	margin: 0 auto;
+	width: 1500px;
+	height: 949px;
+}
+#left-content{
+	position: relative;
+	float: left;
+	background-color:#ffffff;
+	width: 25%; 
+	height: 949px;
+}
+
+#right-content{
+	position: relative;
+	float: right;
+	background-color: #f7f9fa;
+	width: 75%;
+	height: 949px;
+}
+
+#body-img{
+	position: absolute;
+	bottom: 500px;
+	left: 400px;
+}
+#right-content-footer{
+	position: absolute;
+	width: 100%;
+	height: 7px;
+	bottom: 0;
+	background-color: #58e870;
+}
+#left-content-header{
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	background-color: #eeeeee;
+}
+#header-img{
+	position: absolute;
+	border-radius: 50%;
+	top: 4px;
+	left: 10px;
+}
+#header-icon1{
+	position: absolute;
+	top: 10px;
+	left: 240px;
+}
+#header-icon2{
+	position: absolute;
+	top: 10px;
+	left:295px;
+}
+#header-icon3{
+	position: absolute;
+	top: 10px;
+	left: 345px;
+}
+#left-content-search{
+	border: 1px solid #e4e5e6;
+	position: absolute;
+	top:50px;
+	width: 99.5%;
+	height: 40px;
+	background-color: #fbfbfb;
+}
+.search{
+	position: absolute;
+	top:5px;
+	left:10px;
+	height: 50px;
+}
+.icon{
+	position: absolute;
+	top:8px;
+	left:5px;
+	z-index: 1;
+	margin-right: 5px;
+}
+#search{
+	border: 0.5px solid #e4e5e6 ;
+	position: absolute;
+	width: 352px;
+	height: 30px;
+	border-radius: 4px;
+	outline: none;
+	padding-left: 20px;
+}
+#right-content-text1{
+	position: absolute;
+	width: 460px;
+	height: 32px;
+	top: 500px;
+	left: 350px;
+	font-size: 36px;
+	font-family: Roboto;
+	color: #4b5961;
+}
+#right-content-text2{
+	border-bottom:  1px solid #e1e9eb;
+	border-bottom-width: 10%;
+	padding-bottom: 13px;
+	position: absolute;
+	width: 460px;
+	height:40px; 
+	top: 560px;
+	left: 350px;
+	font-family: Roboto;
+	font-size: 14px;
+	color: #929fa6;
+	text-align: center;
+}
+#right-content-text3{
+	position: absolute;
+	width: 370px;
+	height: 50px;
+	top: 635px;
+	left: 400px;
+	font-family: Roboto;
+	font-size: 14px;
+	text-align: center;
+	color: #929fa6;
+
+}
+#laptop{
+	position: absolute;
+	left: 17px;
+}
+#line{
+	position: absolute;
+	width: 460px;
+	height: 5px;
+	top: 600px;
+	left: 350px;
+	color: #e1e9eb;
+}
+.line{
+	position: absolute;
+	top:55px;
+	left: 60px;
+	color: #e1e9eb;
+}
+
+#right-content-text3  a{
+    color: #07bc4c;
+}
+
+.avatar{
+	border-radius: 35px;
+}
+
+#left-content-chat{
+	position: absolute;
+	top:92.5px;
+	width: 100%;
+	height: 857px;
+	overflow: auto;
+}
+/*Chat*/
+#chat1{
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 72px;
+}
+#chat2{
+	position: absolute;
+	top:72px;
+	width: 100%;
+	height: 72px;
+}
+#chat3{
+	position: absolute;
+	top: 144px;
+	width: 100%;
+	height: 72px;
+}
+#chat4{
+	position: absolute;
+	top: 216px;
+	width: 100%;
+	height: 72px;
+}
+#chat5{
+	position: absolute;
+	top: 288px;
+	width: 100%;
+	height: 72px;
+}
+#chat6{
+	position: absolute;
+	top: 360px;
+	width: 100%;
+	height: 72px;
+}
+#chat7{
+	position: absolute;
+	top: 432px;
+	width: 100%;
+	height: 72px;
+}
+#chat8{
+	position: absolute;
+	top: 504px;
+	width: 100%;
+	height: 72px;
+}
+#chat9{
+	position: absolute;
+	top: 576px;
+	width: 100%;
+	height: 72px;
+}
+#chat10{
+	position: absolute;
+	top: 648px;
+	width: 100%;
+	height: 72px;
+}
+#chat11{
+	position: absolute;
+	top: 720px;
+	width: 100%;
+	height: 72px;
+}
+#chat13{
+	position: absolute;
+	top: 792px;
+	width: 100%;
+	height: 72px;
+}
+#chat14{
+	position: absolute;
+	top: 864px;
+	width: 100%;
+	height: 72px;
+}
+#chat15{
+	position: absolute;
+	top: 936px;
+	width: 100%;
+	height: 72px;
+}
+.chat-name{
+	position: absolute;
+	left: 60px;
+	top:20px;
+	font-family: Roboto;
+	font-size: 16px;
+	color: #000000;
+}
+.chat-avatar{
+	position: absolute;
+	top: 15px;
+	left:7px;
+}
+.chat-text{
+	position: absolute;
+	left: 60px;
+	top:37px;
+	font-family: Roboto;
+	font-size: 14px;
+	color: #a4a4a4;
+}
+
+.time{
+	position: absolute;
+	left: 320px;
+	top:20px;
+	font-family: Roboto;
+	font-size: 12px;
+	color: #a4a4a4;
+}
+.chat-hover:hover{
+	background-color:#F4F5F5;
+}
+
+::-webkit-scrollbar-button{
+	width: 7px;
+	height: 0px;
+}
+::-webkit-scrollbar{
+	width: 7px;
+	background-color: #ffffff;
+}
+::-webkit-scrollbar-thumb{
+	background-color: #CCCCCC;
+}
+::-webkit-scrollbar-track{
+	background-color: #FFFFFF;
+}
+::-webkit-resizer{
+	width: 7px;
+}
