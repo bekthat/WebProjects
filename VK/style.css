@@ -1,0 +1,172 @@
+/*All doc*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #EDEEF0;
+	font-family: Arial;
+
+}
+
+ul{
+	list-style: none;
+	padding-left:0px;
+}
+a{  
+	font-size: 13.5px;
+	color:#286aa3;
+	text-decoration: none;
+}
+li:hover{
+	background-color: #D7DBE2;
+}
+
+li{ 
+	color: #285473;
+	padding: 7px 20px;
+}
+a:visited{
+    color: #286aa3;
+}
+table{
+	width: 100%;
+}
+#container {
+	margin: auto;
+	border-spacing: 15px;
+	margin-bottom: -20px;
+
+}
+
+/*Header*/
+#current-page{
+	border-left: 2px solid #5181b8;
+}
+
+    
+#search{
+    padding: 6px 17px;
+    background-color: #224B7A;
+    border: 0px;
+    border-radius: 15px;
+    width: 230px;
+    margin-left: 228px;
+
+}
+#search:focus{
+    background-color: #ffffff;
+}
+#bell,#music,#play{
+	padding-left: 15px;
+}
+
+#mypage-small{
+	border-radius: 70px;
+	width: 32px;
+	height: 32px;
+	padding-top: 2px;
+}
+
+#down-arrow{
+	height: 12px;
+	width: 12px;
+}
+ul.small-page li{
+	display: inline;
+}
+#top-menu-table{
+	padding-left: 350px;
+	padding-right: 350px; 
+	width: 101%;
+}
+#text-header{
+	font-size:14px;
+	font-weight: 700;
+}
+/*Menu*/
+	#top-menu{
+		width: 100%;
+		background-color: #4A76A8;
+		color: #fff;
+		padding-left: 30px		
+	}
+	#right-menu{
+		padding-top: 1px;
+		width: 25%;
+		color: #99B1C1;
+		padding-left: 0px !important;
+	}
+
+	#left-menu{
+		width: 25%;
+		color: #99B1C1;
+	}
+	#left-menu-table{
+		padding-left: 350px;
+		padding-right: 350px;
+	}
+	#left-menu-table-page{
+		width: 200px;
+		margin-left: 340px;
+		margin-top: -125px;
+	}
+/*Content*/
+	.island {
+		background-color: #fff;
+		border: 1px solid #E3E4E8;
+		border-radius: 5px;
+		padding: 15px;
+	}
+	#settings{
+		margin: 0;
+		padding: 12px;
+		border-style: none;
+		border-spacing: 15px;
+		font-size: 13.5px;
+	}
+
+	#settings > td{
+
+		border-bottom: 1px solid #000000;
+	}
+    #sttings-td{
+    	border-bottom: 1px solid #000000;
+    }
+
+    #post-logo{
+    	height: 40px;
+    	width: 40px;
+    	border-radius: 40px;
+    	margin-right: 0px;
+    }
+    #post-img{
+    	padding-left: 30px;
+    }
+    #content-td{
+    	width: 55px;
+    }
+    #mypage{
+    	padding-right: 340px;
+    }
+    #avatar{
+    	margin-top: 0px;
+    }
+    #ava-btn{
+    	width: 200px;
+    	height: 30px;
+    }
+    #avatar-img{
+    	border-radius: 4px;
+    }
+
+    #about{
+    	margin-top: -270px;
+    	margin-left: 245px;
+    	width: 750px;
+    }
+
+    #info-td{
+    	padding-right:0px;
+    }
